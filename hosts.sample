@@ -1,0 +1,24 @@
+# sample
+# 
+127.0.0.1 localhost
+
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+107.20.63.8 hw-master1
+12.232.145.163 hw-master2
+18.214.95.104 hw-master3
+51.91.236.159 hw-node1
+32.234.193.234 hw-node2
+18.206.68.53 hw-lb
+
+172.29.12.244 hw-master1-priv
+172.29.121.231 hw-master2-priv
+172.29.42.175 hw-master3-priv
+172.29.112.115 hw-node1-priv
+172.29.126.173 hw-node2-priv
+172.29.205.61 hw-lb-priv

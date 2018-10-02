@@ -1,0 +1,3 @@
+Host hw-*
+  User user
+  IdentityFile ~/.ssh/id_rsa

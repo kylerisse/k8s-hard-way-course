@@ -1,0 +1,15 @@
+[master]
+hw-master1
+hw-master2
+hw-master3
+
+[nodes]
+hw-node1
+hw-node2
+
+[lbs]
+hw-lb
+
+[all:vars]
+ansible_user=user
+host_key_checking = False

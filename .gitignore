@@ -1,0 +1,7 @@
+.DS_Store
+.ansible
+.bash_history
+.ssh
+.viminfo
+kthw/certs/
+hosts
