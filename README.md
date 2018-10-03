@@ -26,6 +26,7 @@ The course itself is based on Kelsey Hightower's tutorial. https://github.com/ke
 - make sure docker works locally
 - follow the steps in the `Setting Up Your Cloud Servers` lesson
 - setup key based auth on the cloud instances for `user`
+- setup NOPASSWD sudo for user on the cloud instances
 - modify ssh config similar to `ssh.config.sample`
 - copy `hosts.sample` to `hosts` and populate with IPs of the cloud instances (public IPs need to be updated each time lab times out)
 - copy `hosts` file to the cloud instances using `deploy_hosts.sh`
