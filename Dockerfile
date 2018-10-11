@@ -2,7 +2,7 @@ FROM ubuntu
 
 RUN apt-get update -y && apt-get upgrade -y
 
-RUN apt-get install wget vim ansible openssh-client -y
+RUN apt-get install wget vim openssh-client -y
 
 RUN wget -q --show-progress --https-only --timestamping \
   https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 \
