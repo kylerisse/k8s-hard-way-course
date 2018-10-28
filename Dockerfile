@@ -17,5 +17,5 @@ chmod +x kubectl; \
 mv kubectl /usr/local/bin/; \
 kubectl version --client
 
-RUN echo 'export PS1="\e[0;33m\u@\h \W #\e[m "' >> /etc/bash.bashrc
+RUN echo 'export PS1="\e[0;33m\u@\h \W #\e[m "' >> /etc/bash.bashrc; echo "alias ssh='ssh -o StrictHostKeyChecking=no'"
 RUN echo "cd ~" >> /etc/bash.bashrc

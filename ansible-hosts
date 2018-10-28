@@ -12,4 +12,4 @@ hw-lb
 
 [all:vars]
 ansible_user = user
-host_key_checking = False
+ansible_ssh_common_args = '-o StrictHostKeyChecking=no'
